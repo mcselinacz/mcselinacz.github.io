@@ -211,19 +211,22 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.2em;
+		font-weight: 400;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
+		margin-top: -0.5em;
+		margin-bottom: 1.5em;
 	}
 
 	h6 {
@@ -2462,7 +2465,7 @@ input, select, textarea {
 		}
 
 		dl dd {
-			margin-left: 2em;
+			margin-left: 0em;
 		}
 
 		dl.alt dt {
