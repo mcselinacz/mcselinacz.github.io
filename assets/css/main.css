@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e6c3bf 15%, #98aba7 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e6c3bf 15%, #98aba7 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e6c3bf 15%, #98aba7 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e6c3bf 15%, #98aba7 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -219,12 +219,12 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.2em;
+		font-size: 1.1em;
 		font-weight: 400;
 	}
 
 	h5 {
-		font-size: 1em;
+		font-size: 0.95em;
 		margin-top: -0.5em;
 		margin-bottom: 1.5em;
 	}
@@ -2258,6 +2258,11 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.icon.free:before {
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 900;
+		}
+
 		.icon.major {
 			border: solid 1px;
 			display: inline-block;
@@ -3414,7 +3419,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #7f948f;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3424,7 +3429,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: #7f948f;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3432,7 +3437,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+					background-color: #7f948f;
 				}
 
 				#main input[type="submit"].primary.icon:before,
@@ -3549,10 +3554,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #e6c3bf, #98aba7, #7f948f);
+			background-image: -webkit-linear-gradient(90deg, #e6c3bf, #98aba7, #7f948f);
+			background-image: -ms-linear-gradient(90deg, #e6c3bf, #98aba7, #7f948f);
+			background-image: linear-gradient(90deg, #e6c3bf, #98aba7, #7f948f);
 		}
 
 		#main table tbody tr {
@@ -3708,6 +3713,7 @@ input, select, textarea {
 			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
 			text-align: center;
+			color: black;
 		}
 
 		@media screen and (max-width: 1280px) {
