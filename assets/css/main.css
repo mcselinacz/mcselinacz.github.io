@@ -193,6 +193,12 @@ input, select, textarea {
 			text-align: justify;
 		}
 
+		p.indent {
+			margin-left: 12%;
+			margin-right: 12%;
+			text-align: justify;
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
@@ -220,8 +226,9 @@ input, select, textarea {
 
 	h3.left {
 		text-align: left;
-		font-size: 1.7em;
 		border-bottom: 0.04em solid #e6c3bf;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	h4 {
@@ -262,8 +269,10 @@ input, select, textarea {
 	blockquote {
 		border-left: solid 4px;
 		font-style: italic;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding: 0.5em 0 0.5em 2em;
+		margin-left: 12%;
+		margin-right: 12%;
 	}
 
 	code {
@@ -1852,7 +1861,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 300;
+		font-weight: 500;
 		height: 2.75em;
 		line-height: 2.75em;
 		min-width: 9.25em;
@@ -1891,7 +1900,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.9em;
 			font-weight: 500;
 		}
 
@@ -2517,7 +2526,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 	}
 
 		ul.actions li {
@@ -2647,7 +2656,7 @@ input, select, textarea {
 			}
 
 /* Section/Article */
-
+	
 	section.special, article.special {
 		text-align: center;
 	}
