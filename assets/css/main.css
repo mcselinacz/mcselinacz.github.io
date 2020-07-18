@@ -271,6 +271,9 @@ input, select, textarea {
 		font-style: italic;
 		margin: 0 0 1em 0;
 		padding: 0.5em 0 0.5em 2em;
+	}
+
+	blockquote.indent {
 		margin-left: 12%;
 		margin-right: 12%;
 	}
@@ -2649,6 +2652,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.65em 0 0;
+			margin-bottom: 0.75em;
 		}
 
 			ul.icons li:last-child {
