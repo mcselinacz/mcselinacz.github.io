@@ -3737,14 +3737,6 @@ input, select, textarea {
 			color: black;
 		}
 
-		#footer .nospacetop {
-			margin-top: 0em;
-		}
-
-		#footer .nospacebottom {
-			margin-bottom: 0.5em;
-		}
-
 		@media screen and (max-width: 1280px) {
 
 			#footer {
