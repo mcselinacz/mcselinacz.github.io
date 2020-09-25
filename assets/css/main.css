@@ -2688,7 +2688,7 @@ input, select, textarea {
 				}
 
 		header.major p {
-			font-size: 1.25em;
+			font-size: 1.1em;
 			letter-spacing: -0.025em;
 		}
 
@@ -3364,7 +3364,7 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: black;
 		border-radius: 0.25em;
 	}
 
