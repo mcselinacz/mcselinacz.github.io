@@ -237,7 +237,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.95em;
+		font-size: 1.05em;
 		margin-top: -0.5em;
 		margin-bottom: 1.5em;
 	}
@@ -2455,7 +2455,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 		padding-left: 1em;
 	}
 
@@ -2658,6 +2658,12 @@ input, select, textarea {
 			ul.icons li:last-child {
 				padding-right: 0 !important;
 			}
+	
+	ul.icons.justify {
+		margin-left: 40%;
+		text-align: justify;
+	}
+		
 
 /* Section/Article */
 	
@@ -2665,20 +2671,26 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	section.indent, article.indent {
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: 0em;
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 1.9em;
+			font-weight: 600px;
 		}
 
 			header.major h2:after {
 				display: block;
 				content: '';
-				width: 3.25em;
+				width: auto;
 				height: 2px;
-				margin: 0.7em 0 1em 0;
+				margin: 0.3em 0 1em 0;
 				border-radius: 2px;
 			}
 
@@ -2848,6 +2860,7 @@ input, select, textarea {
 			margin-top: 3em;
 			padding: 0;
 		}
+
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
@@ -3037,7 +3050,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
-				width: 16em;
+				width: 14em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3101,7 +3114,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 2em 5em 1em 5em ;
 		text-align: center;
 	}
 
@@ -3115,7 +3128,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 4em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3160,7 +3173,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 4em 4em 3em 4em ;
 				}
 
 		}
